@@ -27,8 +27,11 @@
     "webpack-dev-server": "^3.1.10"
   },
   "dependencies": {
+    "gps": "^0.5.2",
+    "mapbox-gl": "^0.53.1",
     "react": "16.2",
-    "react-dom": "16.2"
+    "react-dom": "16.2",
+    "react-websocket": "^2.0.1",
   },
   "scripts": {
     "start": "webpack-dev-server --mode development",
